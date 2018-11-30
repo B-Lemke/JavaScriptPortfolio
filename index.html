@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+    <title>Javascript Portfolio</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="jumbotron">
+				<h2>
+					Broderick Lemke's JavaScript Portfolio
+				</h2>
+				<p>
+					This is a collection of JavaScript projects created by Broderick Lemke throughout the past couple of years. The projects utilize a several frameworks and APIs to create interactive websites that demonstrate an understanding and application of JavaScript topics. You can either get started and click through on each page with navigation that will link between pages, or click on a specific example on this page.
+				</p>
+				<p>
+					<a class="btn btn-primary btn-large" href="gameoflife/life.html">Get Started</a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4">
+			<h2>
+				Conway's Game of Life
+			</h2>
+			<p>
+				Conway's game of life is a cellular automaton that utilizes an algorithm to decide whether each cell will "live" or "die". This example is highly visual and shows use of the p5.js library, array traversal, the ability to translate an algorithm into JavaScript, executes complex logic, contains nested loops, handles events, and shows that I can break down a real-life problem and replicate it in JavaScript.
+			</p>
+			<p>
+				<a class="btn" href="gameoflife/life.html">View Project »</a>
+			</p>
+		</div>
+		<div class="col-md-4">
+			<h2>
+				Color Automaton
+			</h2>
+			<p>
+				Inspired by Conway's Game of Life, I created a cellular automaton that calculates a weighted average of the color for each pixel each frame. It allows the user to pick a brush size and color and "paint" into the canvas as well. This project shows that I can use JavaScript to solve creative solutions, adapt code as necessary, take input from HTML5 controls, manipulate color data, and expand upon the logical concepts of others using JavaScript.
+			</p>
+			<p>
+				<a class="btn" href="colorauto/color.html">View Project »</a>
+			</p>
+		</div>
+		<div class="col-md-4">
+			<h2>
+				NASA Space Images
+			</h2>
+			<p>
+				In an effort to learn how to use APIs, I decided to used Nasa's picture of the day API. I use the API to grab a random picture from their database and perform a 'fuzzy' visual effect on it. This project shows that I can make a call to an API, use an API key, parse the JSON that I recieve back from an API call, manipulate images, and place data in the DOM. <strong><em>NOTE:</em></strong> This project encounters a CORS error because of the header it is sent back with from NASA's API. You must us a browser extension to (Allow-Control-Allow-Origin: *) to view this example properly.
+			</p>
+			<p>
+				<a class="btn" href="nasa/nasa.html">View Project »</a>
+			</p>
+		</div>
+    <div class="col-md-4">
+      <h2>
+        Basic Spreadsheet
+      </h2>
+      <p>
+        While this project has the word basic in the title, it shows a lot! I start work on this project to show my knowledge of DOM traversal and manipulation and some Jquery code. This application creates a spreadsheet dynamically and allows the user to add rows or columns by clicking buttons. This project shows DOM manipulation and traversal, Jquery selectors, Jquery animations, and shows the ability to breakdown an existing concept like a spreadsheet and recreate it in JavaScript.
+      </p>
+      <p>
+        <a class="btn" href="spreadsheet/spreadsheet.html">View Project »</a>
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h2>
+        Fractal Trees
+      </h2>
+      <p>
+        This final example is another visualization of a mathematical concept. This fractal tree visualiztion is an example of recursion in javascript. It uses inputs from HTML sliders, calculates mathematic variables, synthesizes basic wind sounds out of noise using a Low Frequency Oscillator, shows use of recursion to produce a mathematically complex result.
+      </p>
+      <p>
+        <a class="btn" href="trees/tree.html">View Project »</a>
+      </p>
+    </div>
+	</div>
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
